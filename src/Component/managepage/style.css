@@ -1,0 +1,36 @@
+.wrapper {
+  padding: 0 4rem;
+}
+.fs-1 {
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+}
+
+.posfix {
+  margin: 1rem !important;
+}
+.trow {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important ;
+}
+.fs-bodycell {
+  font-size: 1rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 0 2rem;
+  }
+
+  .w {
+    width: 100% !important;
+  }
+  .managetxt {
+    font-size: 0.6rem;
+  }
+
+  .submitBtn {
+    width: 100% !important;
+  }
+}
